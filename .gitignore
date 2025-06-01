@@ -1,0 +1,23 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store # macOS specific
+.vscode/
+
+# Conda environment
+hjcc_env/
+
+# Data and Logs
+*.log
+*.sqlite3
+data/ # If you plan to store large raw data here, exclude it.
+# You might want to be more specific with data if some data IS tracked
+
+# IDE specific files
+.idea/ # PyCharm
+
